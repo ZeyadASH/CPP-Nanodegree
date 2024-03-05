@@ -4,18 +4,16 @@ C++ has several "primitive" variable types, which are things like ints (integers
 
 #include <iostream>
 #include <string>
+
 using std::cout;
+using std::string;
 
 int main() {
-    // Declaring and initializing an int variable.
-    int a = 9;
     
-    // Declaring a string variable without initializing right away.
-    std::string b;
+    int a = 100;                    // Declaring and initializing (assigning a value) an int variable.
+    string b = "Here is a string";  // Declaring and initializing a string variable.
     
-    // Initializing the string b.
-    b = "Here is a string";
-    
-    cout << a << "\n";
-    cout << b << "\n";
+    cout << "a = " << a << "\n";
+    cout << "b = " << b << "\n";
 }
+
